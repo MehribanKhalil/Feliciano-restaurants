@@ -62,19 +62,23 @@ body {
     right: 0;
 }
 
+
+
 .RecentPosts__cards{
-    padding: 70px 200px;
+    padding: 70px 190px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .RecentPosts__card{
-    width: 350px;
+    min-width: 350px;
+    max-width: 350px;
     background-color: #fff;
     box-shadow: rgb(0 0 0 / 8%) 0px 10px 50px;
     border-radius: 5px;
     overflow: hidden;
-
 }
 
 .RecentPosts__card-img{
