@@ -1,0 +1,123 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+
+/* Reset Css  */
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+a{
+    text-decoration: none;
+    /* color: #000; */
+    font-weight: 500;
+}
+
+body {
+	line-height: 1;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===========RecentPosts Section Start============ */
+
+#RecentPosts{
+    background-color: #FAFAFA;
+}
+
+.RecentPosts__title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.RecentPosts__title h3{
+    color: #333;
+    font-weight: 900;
+    font-size: 3.1rem;
+    position: relative;
+
+}
+
+.RecentPosts__title h2{
+    color:#c8a97e;
+    font-size: 6.25rem;
+    font-family: 'Great Vibes', cursive;
+    position: absolute;
+    display: block;
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+
+.RecentPosts__cards{
+    padding: 70px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.RecentPosts__card{
+    width: 350px;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 8%) 0px 10px 50px;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.RecentPosts__card-img{
+    height: 300px;
+
+}
+
+.RecentPosts__card-text{
+padding: 20px;
+}
+
+.RecentPosts__card-text h4{
+    font-size: 1.25rem;
+    margin: 15px 0;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.RecentPosts__card-text .card-info{
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 0.95rem;
+    padding-top: 5px;
+}
+
+.RecentPosts__card-text .card-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.RecentPosts__card-text .card-bottom a:first-child{
+    color: #000;
+    font-size: 0.88rem;
+}
+
+.RecentPosts__card-text .card-bottom .card-bottom-comment {
+    color:rgba(0, 0, 0, 0.4) ;
+}
+
+.card-bottom .card-bottom-comment .fa-message{
+    padding-right:2px ;
+}
+/* ===========RecentPosts Section End============ */
+
+
